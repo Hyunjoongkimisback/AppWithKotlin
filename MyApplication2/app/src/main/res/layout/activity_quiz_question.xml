@@ -46,7 +46,7 @@
                 style="?android:progressBarStyleHorizontal"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:max="9"
+                android:max="10"
                 android:indeterminate="false"
                 android:minHeight="50dp"
                 android:progress="0"/>
@@ -62,20 +62,63 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Apple" />
+        <TextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Apple" />
+        <TextView
+            android:id="@+id/tv_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Apple" />
+        <TextView
+            android:id="@+id/tv_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Apple" />
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SUBMIT"
+            android:background="@color/design_default_color_primary"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textSize="18sp" />
+
+
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/tv_option_one"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:padding="15dp"
-        android:textColor="#7A8089"
-        android:textSize="18sp"
-        tools:text="Apple"
-        />
-
-        
-
 </ScrollView>
